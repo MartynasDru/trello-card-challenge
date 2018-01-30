@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trello Card</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="header-wrapper">
+        <div class="side-icon">
+            <img class="trello-icon" src="img/trello-ico.png">
+        </div>
+        <div class="header-main">
+          <input type="text" placeholder="Trello Kortelės pavizdys">
+          <p>in list <span id="underline">Doing</span></p>
+        </div>
+        <img id="exit" src="img/exit.png">
+    </div>
+    <div class="main-content-wrapper">
+      <div class="main">
+
+        <div id="labels">
+          <p>Labels</p>
+          <div class="descriptionButtons">
+            <button id="bigButton">Coding Challenge</button>
+            <button id="smallButton">+</button>
+          </div>
+          <p id="description"><i class="fa fa-align-left" aria-hidden="true"></i>Edit the description...</p>
+        </div>
+
+        <div id="checklist">
+          <div id="checklistHeader">
+            <div id="check-icon">
+              <img src="img/select.png">
+            </div>
+            <div id="checklistTitle">
+              <span>Checklist</span>
+            </div>
+            <div id="removeItems">
+              <span>Hide completed items </span>
+              <span>Delete...</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="sidebar">
+        <div class="menu">
+          <p>Add</p>
+          <button class="sidebar-button"><i class="fa fa-user-o" aria-hidden="true"></i>  Members</button>
+          <button class="sidebar-button"><i class="fa fa-tag" aria-hidden="true"></i>  Labels</button>
+          <button class="sidebar-button"><i class="fa fa-check-square-o" aria-hidden="true"></i> Checklist</button>
+          <button class="sidebar-button"><i class="fa fa-clock-o" aria-hidden="true"></i>  Due Date</button>
+          <button class="sidebar-button"><i class="fa fa-paperclip" aria-hidden="true"></i>  Attachment</button>
+        </div>
+        <div class="menu">
+          <p>Actions</p>
+          <button class="sidebar-button"><i class="fa fa-arrow-right" aria-hidden="true"></i>  Move</button>
+          <button class="sidebar-button"><i class="fa fa-clone" aria-hidden="true"></i>  Copy</button>
+          <button class="sidebar-button"><i class="fa fa-eye" aria-hidden="true"></i>  Subscribe</button>
+          <button class="sidebar-button"><i class="fa fa-archive" aria-hidden="true"></i>  Archive</button>
+        </div>
+        <p id="share">Share and more...</p>
+      </div>
+
+    </div>
+  </div>
+
+  </body>
+</html>

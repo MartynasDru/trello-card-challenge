@@ -1,0 +1,173 @@
+html {
+  height:100%;
+}
+body {
+  font-family: 'Roboto';
+  background-color: black;
+}
+.header-main input {
+  width:80%;
+  background-color: #EDEFF0;
+  color: #4d4d4d;
+  border: none;
+  height: 30px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.header-main input:focus {
+  background-color: white;
+}
+.container {
+  width: 700px;
+  background-color: #EDEFF0;
+  margin: auto;
+  padding: 10px 15px 20px 10px;
+  border-radius: 3px;
+}
+#main-section {
+  flex: 5;
+}
+#right-sidebar {
+  flex:1;
+}
+.fa-times {
+  float: right;
+  color:#A6A8A8;
+  font-size: 25px;
+}
+p   {
+  margin: 0;
+  font-size: 14px;
+  color: #8C8C8C;
+}
+#underline {
+  text-decoration: underline;
+}
+.wrapper {
+
+}
+#labels {
+  margin: 20px 0 25px 33px;
+}
+.descriptionButtons {
+  margin-top: 5px;
+}
+#bigButton {
+  background-color: #0079bf;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius:3px;
+  border: none;
+  padding: 7px 8px;
+  text-shadow: 0.5px 0.5px black;
+}
+#bigButton:hover {
+  background-color:#3B96DE;
+}
+#smallButton {
+  font-weight: bold;
+  border-radius:3px;
+  border: none;
+  padding: 7px 10px 7px 10px;
+  color:#8c8c8c;
+}
+#smallButton:hover {
+  color:#b5afaf;
+}
+#description {
+  padding: 30px 0 0 20px;
+  text-decoration: underline;
+}
+.fa-align-left{
+  padding-right: 5px;
+}
+#exit {
+  width:15px;
+  height:15px;
+}
+.trello-icon{
+  width:20px;
+  height:15px;
+}
+.header-wrapper{
+  display:flex;
+}
+.side-icon{
+  display: block;
+  padding: 7px 8px 5px 5px;
+}
+.header-main{
+  flex: 12;
+}
+.main-content-wrapper{
+  display:flex;
+}
+.main{
+  flex: 8;
+  padding-right: 20px;
+}
+.sidebar{
+  flex:2;
+}
+.sidebar-button{
+  font-size:14px;
+  font-weight: bold;
+  text-align:left;
+  width: 100%;
+  padding: 7px 8px;
+  margin-bottom: 7px;
+  background: linear-gradient(to bottom,#fff 0,#f8f9f9 100%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius:3px;
+  color: #4d4d4d;
+}
+.sidebar p{
+  color: #4d4d4d;
+  font-weight:bold;
+  margin-bottom:7px;
+  font-size:16px;
+}
+.sidebar .fa{
+  font-size:12px;
+  color: #8C8C8C;
+}
+#share{
+  font-weight: normal;
+  text-decoration: underline;
+  font-size:14px;
+  padding-left:5px;
+  color: #8C8C8C;
+}
+.menu{
+  margin:5px 0px 18px 0px;
+}
+
+#checklistHeader{
+  display:flex;
+}
+#check-icon{
+  display:block;
+  padding: 0 8px;
+
+}
+#check-icon img{
+  width:19px;
+  height:19px;
+}
+#checklistTitle{
+  flex:1;
+  font-weight: bold;
+  font-size:16px;
+  color: #4d4d4d;
+}
+#removeItems{
+  flex:1;
+  text-align:right;
+  color: #8C8C8C;
+  text-decoration: underline;
+  font-size:15px;
+}
+#removeItems span{
+  padding-left:7px;
+}
