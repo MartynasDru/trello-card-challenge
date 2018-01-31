@@ -15,7 +15,18 @@ main {
   padding: 10px 15px 20px 10px;
   border-radius: 3px;
 }
-.header-main input {
+p {
+  margin: 0;
+  font-size: 14px;
+  color: #8C8C8C;
+}
+.header-wrapper{
+  display:flex;
+}
+.main-content-wrapper{
+  display:flex;
+}
+input[type="text"] {
   width:80%;
   background-color: #EDEFF0;
   color: #4d4d4d;
@@ -24,18 +35,16 @@ main {
   font-weight: bold;
   font-size: 17px;
 }
-.header-main input:focus {
+input[type="text"]:focus {
   background-color: white;
+}
+input[type="text"]::placeholder {
+  color: #4d4d4d;
 }
 .fa-times {
   float: right;
   color:#A6A8A8;
   font-size: 25px;
-}
-p {
-  margin: 0;
-  font-size: 14px;
-  color: #8C8C8C;
 }
 #underline {
   text-decoration: underline;
@@ -87,18 +96,12 @@ p {
   width:20px;
   height:15px;
 }
-.header-wrapper{
-  display:flex;
-}
 .side-icon{
   display: block;
   padding: 7px 8px 5px 5px;
 }
 .header-main{
   flex: 12;
-}
-.main-content-wrapper{
-  display:flex;
 }
 .main{
   flex: 8;
