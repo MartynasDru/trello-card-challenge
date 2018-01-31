@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Trello Card</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
@@ -9,8 +10,9 @@
   </head>
   <body>
 
-  <div class="container">
-    <div class="header-wrapper">
+  <main>
+
+    <section class="header-wrapper">
         <div class="side-icon">
             <img class="trello-icon" src="img/trello-ico.png">
         </div>
@@ -19,39 +21,77 @@
           <p>in list <span id="underline">Doing</span></p>
         </div>
         <img id="exit" src="img/exit.png">
-    </div>
-    <div class="main-content-wrapper">
-      <div class="main">
+    </section>
 
-        <div id="labels">
+    <section class="main-content-wrapper">
+      <section class="main">
+
+        <section class="labels">
+
           <p>Labels</p>
           <div class="descriptionButtons">
             <button id="bigButton">Coding Challenge</button>
             <button id="smallButton">+</button>
           </div>
           <p id="description"><i class="fa fa-align-left" aria-hidden="true"></i>Edit the description...</p>
-        </div>
 
-        <div id="checklist">
-          <div id="checklistHeader">
+        </section>
+
+        <section class="checklist">
+
+          <div class="checklistHeader">
             <div id="check-icon">
               <img src="img/select.png">
             </div>
-            <div id="checklistTitle">
+            <div class="checklistTitle">
               <span>Checklist</span>
             </div>
-            <div id="removeItems">
+            <div class="remove-items">
               <span>Hide completed items </span>
               <span>Delete...</span>
             </div>
           </div>
 
-        </div>
+          <div class="progress-section">
 
-      </div>
+            <label>33%</label>
+            <progress value="33" max="100"></progress>
+          </div>
+          <div id="list">
+              <div class="list-item">
+                <input type="checkbox" class="checkbox" id="checkbox1">
+                <label for="checkbox1">
+                  <span>
+                    Veikiantis Checklistas
+                  </span>
+                </label>
+              </div>
+              <div class="list-item">
+                <input type="checkbox" class="checkbox" id="checkbox2" checked>
+                <label for="checkbox2">
+                  <span>
+                    Su užbaigtom užduotim
+                  <span>
+                </label>
+              </div>
+              <div class="list-item">
+                <input type="checkbox" class="checkbox" id="checkbox3">
+                <label for="checkbox3">
+                  </span>
+                    <em>Markdown`a</em> šiandienai paliksim</em>
+                  </span>
+                </label>
+              </div>
+
+            <p id="add-item">Add an item...</p>
+          </div>
+
+        </section>
+
+      </section>
 
 
-      <div class="sidebar">
+      <aside>
         <div class="menu">
           <p>Add</p>
           <button class="sidebar-button"><i class="fa fa-user-o" aria-hidden="true"></i>  Members</button>
@@ -68,10 +108,10 @@
           <button class="sidebar-button"><i class="fa fa-archive" aria-hidden="true"></i>  Archive</button>
         </div>
         <p id="share">Share and more...</p>
-      </div>
+      </aside>
 
-    </div>
-  </div>
+    </section>
+  </main>
 
   </body>
 </html>
